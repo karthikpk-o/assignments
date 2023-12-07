@@ -47,7 +47,6 @@ class Calculator {
 
   calculate(num)
   {
-    //let infi = eval('10/0');
     if(num.includes("/ 0"))
       throw new Error("Error");
     this.result = eval(num);
